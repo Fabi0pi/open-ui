@@ -1,9 +1,19 @@
-import { ComponentProps } from "react"
+import { cn } from "@/utils";
+import { VariantProps } from "class-variance-authority"
+import { ComponentProps, forwardRef } from "react"
+import { buttonStyles } from "./style";
 
-type ButtonProps = ComponentProps<"button">
 
-export const Button = ({ ...props }: ButtonProps) => {
-    return (
-        <button className='text-blue-500' {...props} />
-    )
-}
+type ButtonProps = ComponentProps<"button"> & VariantProps<typeof buttonStyles>
+
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+    ({ variant, size, colorscheme, className, ...props }, ref) => {
+
+        return (
+            <button
+                ref={ref}
+                className={cn(buttonStyles({ variant, size, colorscheme, className }))}
+                {...props}
+            />
+        )
+    })
