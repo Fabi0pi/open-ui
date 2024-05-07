@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Fabi0pi/open-ui/compare/v1.0.0...v1.1.0) (2024-05-07)
+
+
+### Features
+
+* branches configured for github action ([426cf91](https://github.com/Fabi0pi/open-ui/commit/426cf91cb48ab0aa20e3d49db1e29e8639f6ed2d))
+
 # 1.0.0 (2024-05-07)
 
 
