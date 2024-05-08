@@ -1,3 +1,17 @@
+## [1.1.4](https://github.com/Fabi0pi/open-ui/compare/v1.1.3...v1.1.4) (2024-05-08)
+
+
+### Bug Fixes
+
+* (Button style) changed button bg ([864c1f2](https://github.com/Fabi0pi/open-ui/commit/864c1f26f4168a0f001fade528eb544254590924))
+
+## [1.1.3](https://github.com/Fabi0pi/open-ui/compare/v1.1.2...v1.1.3) (2024-05-08)
+
+
+### Bug Fixes
+
+* (Input) updated props component ([f512a69](https://github.com/Fabi0pi/open-ui/commit/f512a69410b8415719b393e228f457ab0cf01828))
+
 ## [1.1.2](https://github.com/Fabi0pi/open-ui/compare/v1.1.1...v1.1.2) (2024-05-08)
 
 
