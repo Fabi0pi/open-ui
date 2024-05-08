@@ -26,7 +26,55 @@
   },
   "release": {
     "plugins": [
-      "@semantic-release/commit-analyzer",
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "angular",
+          "releaseRules": [
+            {
+              "type": "docs",
+              "scope": "README",
+              "release": "patch"
+            },
+            {
+              "type": "refactor",
+              "scope": "core-*",
+              "release": "minor"
+            },
+            {
+              "type": "style",
+              "scope": "*",
+              "release": "patch"
+            },
+            {
+              "type": "feat",
+              "scope": "*",
+              "release": "minor"
+            },
+            {
+              "type": "fix",
+              "scope": "*",
+              "release": "patch"
+            },
+            {
+              "type": "chore",
+              "scope": "*",
+              "release": "patch"
+            },
+            {
+              "type": "perf",
+              "scope": "*",
+              "release": "patch"
+            }
+          ],
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES"
+            ]
+          }
+        }
+      ],
       "@semantic-release/release-notes-generator",
       [
         "@semantic-release/npm",
