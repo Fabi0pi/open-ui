@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Fabi0pi/open-ui/compare/v1.1.4...v1.2.0) (2024-05-08)
+
+
+### Features
+
+*  github repo public ([4cbb275](https://github.com/Fabi0pi/open-ui/commit/4cbb27579723b666bad4db4cd9c6fa6b560fe95c))
+
 ## [1.1.4](https://github.com/Fabi0pi/open-ui/compare/v1.1.3...v1.1.4) (2024-05-08)
 
 
