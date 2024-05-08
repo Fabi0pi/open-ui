@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/Fabi0pi/open-ui/compare/v1.1.2...v1.1.3) (2024-05-08)
+
+
+### Bug Fixes
+
+* (Input) updated props component ([f512a69](https://github.com/Fabi0pi/open-ui/commit/f512a69410b8415719b393e228f457ab0cf01828))
+
 ## [1.1.2](https://github.com/Fabi0pi/open-ui/compare/v1.1.1...v1.1.2) (2024-05-08)
 
 
