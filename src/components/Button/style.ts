@@ -6,8 +6,8 @@ export const buttonStyles = cva(
     "rounded-md",
     "font-semibold",
     "focus:outline-none",
-    "disabled:cursor-not-allowed",
     "disabled:bg-gray-300",
+    "disabled:cursor-not-allowed",
   ],
   {
     variants: {
