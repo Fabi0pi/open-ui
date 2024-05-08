@@ -51,12 +51,12 @@
               "release": "minor"
             },
             {
-              "type": "fix",
+              "type": "chore",
               "scope": "*",
               "release": "patch"
             },
             {
-              "type": "chore",
+              "type": "fix",
               "scope": "*",
               "release": "patch"
             },
