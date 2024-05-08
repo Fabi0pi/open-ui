@@ -31,6 +31,11 @@ export default defineConfig({
         },
       },
     },
+    //Generates sourcemaps for the built files,
+    //aiding in debugging.
+    sourcemap: true,
+    //Clears the output directory before building.
+    emptyOutDir: true,
   },
   plugins: [react(), dts({ rollupTypes: true })],
 });
