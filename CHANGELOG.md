@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/Fabi0pi/open-ui/compare/v1.1.0...v1.1.1) (2024-05-08)
+
+
+### Bug Fixes
+
+* packages ([7d72e08](https://github.com/Fabi0pi/open-ui/commit/7d72e082b35d573493287063a495fef9f4be6a98))
+* packages ([dd6c991](https://github.com/Fabi0pi/open-ui/commit/dd6c99184cc5db3dd71c882c701b702bce73ebe7))
+
 # [1.1.0](https://github.com/Fabi0pi/open-ui/compare/v1.0.0...v1.1.0) (2024-05-07)
 
 
