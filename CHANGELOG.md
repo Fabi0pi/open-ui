@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/Fabi0pi/open-ui/compare/v1.1.3...v1.1.4) (2024-05-08)
+
+
+### Bug Fixes
+
+* (Button style) changed button bg ([864c1f2](https://github.com/Fabi0pi/open-ui/commit/864c1f26f4168a0f001fade528eb544254590924))
+
 ## [1.1.3](https://github.com/Fabi0pi/open-ui/compare/v1.1.2...v1.1.3) (2024-05-08)
 
 
