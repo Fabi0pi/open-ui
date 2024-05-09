@@ -36,13 +36,13 @@ export default App;
 
 ### Documentation
 
-For further information on usage and configuration of the library, please refer to the [documentation]("https://github.com/Fabi0pi/open-ui").
+For further information on usage and configuration of the library, please refer to the [**documentation**](https://github.com/Fabi0pi/open-ui).
 
 ### Contributing
 
 If you'd like to contribute to this library, follow these steps:
 
-Fork this [repository]("https://github.com/Fabi0pi/open-ui").
+Fork this [**repository**](https://github.com/Fabi0pi/open-ui).
 Create a new branch with a descriptive name for your change: git checkout -b my-feature
 Make your changes and ensure to add documentation and update tests if necessary.
 Commit your changes: git commit -m 'Add new feature'
