@@ -1,3 +1,15 @@
+## [1.2.5](https://github.com/Fabi0pi/open-ui/compare/v1.2.4...v1.2.5) (2024-05-09)
+
+
+### Bug Fixes
+
+* fix workflow error build ([1111488](https://github.com/Fabi0pi/open-ui/commit/11114886131ec8b04902144833488be3d75b8aff))
+
+
+### Performance Improvements
+
+* **workflow:** added run build before semantic release ([e47a5c8](https://github.com/Fabi0pi/open-ui/commit/e47a5c8f1d819d22716efc1b563913fb5ccda3a8))
+
 ## [1.2.4](https://github.com/Fabi0pi/open-ui/compare/v1.2.3...v1.2.4) (2024-05-09)
 
 ## [1.2.3](https://github.com/Fabi0pi/open-ui/compare/v1.2.2...v1.2.3) (2024-05-09)

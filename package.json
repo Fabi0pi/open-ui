@@ -2,7 +2,7 @@
   "name": "@fabio_pi_org/open-ui",
   "private": false,
   "description": "A simple ui library for React",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "type": "module",
   "files": [
     "dist"
