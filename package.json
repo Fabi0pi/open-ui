@@ -7,16 +7,15 @@
   "files": [
     "dist"
   ],
-  "main": "dist/open-ui-umd.js",
-  "module": "dist/open-ui.js",
-  "types": "dist/open-ui.d.ts",
+  "main": "./dist/open-ui-umd.js",
+  "module": "./dist/open-ui.js",
+  "types": "./dist/open-ui.d.ts",
   "exports": {
     ".": {
       "import": "./dist/open-ui.js",
       "require": "./dist/open-ui-umd.js",
       "types": "./dist/open-ui.d.ts"
-    },
-    "./dist/style.css": "./dist/style.css"
+    }
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
