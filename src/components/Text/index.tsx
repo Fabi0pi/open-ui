@@ -1,7 +1,7 @@
 import { StyledText, TextProps } from "./styled"
 
-export const Text = ({ variant = "span", emphasis, ...props }: TextProps) => {
+export const Text = ({ variant = "span", emphasis, children, ...props }: TextProps) => {
     return (
-        <StyledText variant="span" emphasis={emphasis} {...props} />
+        <StyledText variant="span" as={variant} emphasis={emphasis} {...props} >{children}</StyledText>
     )
 }
