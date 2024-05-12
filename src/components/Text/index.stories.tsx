@@ -17,17 +17,17 @@ type Story = StoryObj<typeof meta>
 export const Default: Story = {
     args: {
         children: "This is a normal text",
-        size: "base",
-        align: "left",
-        as: 'text',
     }
 }
 export const Emphasized: Story = {
     args: {
         children: "This is an emphasized text",
-        size: "base",
-        align: "left",
-        as: 'text',
-        emphasis: "low"
+        emphasis: true
+    }
+}
+export const Uppercase: Story = {
+    args: {
+        children: "This is an uppercase text",
+        upperCase: true
     }
 }
