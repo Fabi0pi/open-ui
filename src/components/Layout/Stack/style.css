@@ -1,0 +1,18 @@
+.container {
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: start;
+  border: 1px solid black;
+}
+
+.default-example-container {
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.default-example-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}

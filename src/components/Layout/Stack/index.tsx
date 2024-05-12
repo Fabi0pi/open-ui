@@ -1,10 +1,11 @@
-import { cn } from "@/utils"
-import { Box, BoxProps } from "../Box"
+import { Box } from "../Box"
+import { BoxProps } from "../Box/styled"
+import './style.css'
 
 type StackProps = BoxProps
 
 export const Stack = (({ className, ...props }: StackProps) => {
     return (
-        <Box className={cn("flex flex-col items-start", className)}  {...props} />
+        <Box className={"container" || className} {...props} />
     )
 })

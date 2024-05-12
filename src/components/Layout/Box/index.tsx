@@ -1,9 +1,7 @@
-import { ComponentPropsWithRef, forwardRef } from "react"
+import { BoxProps, StyledBox } from "./styled"
 
-export type BoxProps = ComponentPropsWithRef<'div'>
-
-export const Box = forwardRef<HTMLDivElement, BoxProps>(({ ...props }, ref) => {
+export const Box = ({ className, ...props }: BoxProps) => {
     return (
-        <div ref={ref} {...props} />
+        <StyledBox {...props} className={className} />
     )
-})
+}
