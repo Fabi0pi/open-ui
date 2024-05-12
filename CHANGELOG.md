@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Fabi0pi/open-ui/compare/v1.2.8...v1.3.0) (2024-05-12)
+
+
+### Features
+
+* added styled component ([722d506](https://github.com/Fabi0pi/open-ui/commit/722d506d96c7fb644c88c68f1738dbb16d341a85))
+
 ## [1.2.8](https://github.com/Fabi0pi/open-ui/compare/v1.2.7...v1.2.8) (2024-05-11)
 
 
