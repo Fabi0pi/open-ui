@@ -1,3 +1,10 @@
+## [1.2.8](https://github.com/Fabi0pi/open-ui/compare/v1.2.7...v1.2.8) (2024-05-11)
+
+
+### Bug Fixes
+
+* **package:** main module and exports ([356cf9c](https://github.com/Fabi0pi/open-ui/commit/356cf9c57f938659628dcca6460cb0cb3c8f3953))
+
 ## [1.2.7](https://github.com/Fabi0pi/open-ui/compare/v1.2.6...v1.2.7) (2024-05-10)
 
 
