@@ -1,5 +1,13 @@
-import { ComponentProps } from "react";
+import { PolymorphicComponentPropsWithRef } from "@/utils/types";
+import { ReactNode } from "react";
 import styled from "styled-components";
+
+type StyledTextProps<C extends React.ElementType> =
+  PolymorphicComponentPropsWithRef<C>;
+
+type TextComponent = <C extends React.ElementType = "span">(
+  props: StyledTextProps<C>
+) => React.ReactElement | null;
 
 export type TextVariant =
   | "h1"
@@ -26,15 +34,11 @@ export type TextProps = {
   upperCase?: boolean;
   variant: TextVariant;
   emphasis: boolean;
-} & ComponentProps<"text">;
+  children: ReactNode;
+} & TextComponent;
 
 export const StyledText = styled.span<TextProps>`
   text-transform: ${({ upperCase }) => (upperCase ? "uppercase" : "none")};
   ${({ variant }) => TextVariant[variant]};
   color: ${({ emphasis }) => (emphasis ? "#CBD5E1" : "inherit")};
 `;
-
-/* ${variant({
-  prop: 'as',
-
-})} */
