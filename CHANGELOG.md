@@ -1,3 +1,14 @@
+## [1.3.3](https://github.com/Fabi0pi/open-ui/compare/v1.3.2...v1.3.3) (2024-05-14)
+
+
+### Bug Fixes
+
+* **Text:** props configuration ([3fd2c81](https://github.com/Fabi0pi/open-ui/commit/3fd2c81965a7a74664a35af62a60527411441fe9))
+* **Text:** props configuration ([f2a1b4e](https://github.com/Fabi0pi/open-ui/commit/f2a1b4e49ed1a844c35b3b1d709b3a5a95425516))
+* **Text:** props configuration ([a7b47f6](https://github.com/Fabi0pi/open-ui/commit/a7b47f656b454befd616bafc6b10cf108e69eb09))
+* **Text:** props configuration ([4f8fc16](https://github.com/Fabi0pi/open-ui/commit/4f8fc1608c0ae728f1fa1d4085b4aa818a980db2))
+* **Text:** props configuration ([1a78204](https://github.com/Fabi0pi/open-ui/commit/1a7820493af60573d8fa20b29e529b7d452593ce))
+
 ## [1.3.2](https://github.com/Fabi0pi/open-ui/compare/v1.3.1...v1.3.2) (2024-05-12)
 
 
