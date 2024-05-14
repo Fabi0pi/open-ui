@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/Fabi0pi/open-ui/compare/v1.3.1...v1.3.2) (2024-05-12)
+
+
+### Bug Fixes
+
+* **text:** variant type ([d3e80fd](https://github.com/Fabi0pi/open-ui/commit/d3e80fd55d17f990e1a84bb1e1bb06eda6649ff8))
+
 ## [1.3.1](https://github.com/Fabi0pi/open-ui/compare/v1.3.0...v1.3.1) (2024-05-12)
 
 # [1.3.0](https://github.com/Fabi0pi/open-ui/compare/v1.2.8...v1.3.0) (2024-05-12)
