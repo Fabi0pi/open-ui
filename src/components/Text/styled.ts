@@ -33,8 +33,7 @@ const TextVariant = {
 export type TextProps = {
   upperCase?: boolean;
   variant: TextVariant;
-  emphasis: boolean;
-  children: ReactNode;
+  emphasis?: boolean;
 } & TextComponent;
 
 export const StyledText = styled.span<TextProps>`
