@@ -1,4 +1,5 @@
 import { PolymorphicComponentPropsWithRef } from "@/utils/types";
+import { ReactNode } from "react";
 import styled from "styled-components";
 
 type StyledTextProps<C extends React.ElementType> =
@@ -32,7 +33,8 @@ const TextVariant = {
 export type TextProps = {
   upperCase?: boolean;
   variant: TextVariant;
-  emphasis?: boolean;
+  emphasis: boolean;
+  children: any;
 } & TextComponent;
 
 export const StyledText = styled.span<TextProps>`
