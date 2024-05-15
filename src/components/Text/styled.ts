@@ -4,10 +4,6 @@ import styled from "styled-components";
 type StyledTextProps<C extends React.ElementType> =
   PolymorphicComponentPropsWithRef<C>;
 
-type TextComponent = <C extends React.ElementType = "span">(
-  props: StyledTextProps<C>
-) => React.ReactElement | null;
-
 export type TextVariant =
   | "h1"
   | "h2"
@@ -18,7 +14,7 @@ export type TextVariant =
   | "p"
   | "span";
 
-const TextVariant = {
+const TextVariantMap = {
   p: "p",
   h1: "h1",
   h2: "h2",
@@ -29,15 +25,15 @@ const TextVariant = {
   span: "span",
 };
 
-export type TextProps = {
+export type TextProps<C extends React.ElementType = "span"> = {
   upperCase?: boolean;
-  variant: TextVariant;
-  emphasis: boolean;
-  children: any;
-} & TextComponent;
+  variant?: TextVariant;
+  emphasis?: boolean;
+  as?: C;
+} & StyledTextProps<C>;
 
 export const StyledText = styled.span<TextProps>`
   text-transform: ${({ upperCase }) => (upperCase ? "uppercase" : "none")};
-  ${({ variant }) => TextVariant[variant]};
+  ${({ variant }) => variant && TextVariantMap[variant]};
   color: ${({ emphasis }) => (emphasis ? "#CBD5E1" : "inherit")};
 `;

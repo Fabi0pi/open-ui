@@ -1,7 +1,7 @@
 import { StyledText, TextProps } from "./styled"
 
-export const Text = ({ variant = "span", ...props }: TextProps) => {
+export const Text = <C extends React.ElementType = "span">({ variant = "span", ...props }: TextProps<C>) => {
     return (
-        <StyledText variant="span" as={variant} {...props} />
-    )
-}
+        <StyledText as={variant} {...props} />
+    );
+};
