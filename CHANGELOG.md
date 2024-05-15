@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/Fabi0pi/open-ui/compare/v1.3.3...v1.3.4) (2024-05-15)
+
+
+### Bug Fixes
+
+* **Text:** props configuration ([74af69d](https://github.com/Fabi0pi/open-ui/commit/74af69d5485e44757902f9dc89e89d41ab2cb3e5))
+
 ## [1.3.3](https://github.com/Fabi0pi/open-ui/compare/v1.3.2...v1.3.3) (2024-05-14)
 
 
