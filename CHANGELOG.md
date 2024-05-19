@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/Fabi0pi/open-ui/compare/v1.3.4...v1.3.5) (2024-05-19)
+
+
+### Performance Improvements
+
+* **package:** improvement of the automatic changelog ([399f64e](https://github.com/Fabi0pi/open-ui/commit/399f64e8ab41d7c6530f0dce6670ac03145089e4))
+
 ## [1.3.4](https://github.com/Fabi0pi/open-ui/compare/v1.3.3...v1.3.4) (2024-05-15)
 
 
