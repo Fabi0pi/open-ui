@@ -1,4 +1,4 @@
-export const theme: OpenTheme = {
+export const theme: OpenThemeConfig = {
   colors: {
     primary: {
       light: "#42defe",
@@ -23,7 +23,7 @@ export const theme: OpenTheme = {
   },
 };
 
-type OpenTheme = {
+export type OpenThemeConfig = {
   colors: Colors;
   fontSizes: FontSizes;
 };
