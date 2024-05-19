@@ -1,4 +1,4 @@
-export const theme: Record<string, any> = {
+export const theme: OpenTheme = {
   colors: {
     primary: {
       light: "#42defe",
@@ -22,3 +22,19 @@ export const theme: Record<string, any> = {
     xs: 10,
   },
 };
+
+type OpenTheme = {
+  colors: Colors;
+  fontSizes: FontSizes;
+};
+
+type Colors = {
+  primary: Record<ColorType, string>;
+  secondary: Record<ColorType, string>;
+  error: string;
+  success: string;
+};
+
+type ColorType = "light" | "main" | "dark";
+type FontSizes = Record<sizes, number>;
+type sizes = "xl" | "lg" | "md" | "base" | "sm" | "xs";
