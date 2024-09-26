@@ -1,3 +1,9 @@
+## [1.3.9](https://github.com/Fabi0pi/open-ui/compare/v1.3.8...v1.3.9) (2024-08-01)
+
+## [1.3.8](https://github.com/Fabi0pi/open-ui/compare/v1.3.7...v1.3.8) (2024-07-12)
+
+## [1.3.7](https://github.com/Fabi0pi/open-ui/compare/v1.3.6...v1.3.7) (2024-05-19)
+
 ## [1.3.6](https://github.com/Fabi0pi/open-ui/compare/v1.3.5...v1.3.6) (2024-05-19)
 
 ## [1.3.5](https://github.com/Fabi0pi/open-ui/compare/v1.3.4...v1.3.5) (2024-05-19)
