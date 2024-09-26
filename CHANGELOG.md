@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/Fabi0pi/open-ui/compare/v1.3.9...v1.3.10) (2024-09-26)
+
+
+### Bug Fixes
+
+* body-parser vulnerable to denial of service when url encoding is enabled ([b8f91a0](https://github.com/Fabi0pi/open-ui/commit/b8f91a0011b80929f522229a0c120529cd7a1e27))
+
 ## [1.3.9](https://github.com/Fabi0pi/open-ui/compare/v1.3.8...v1.3.9) (2024-08-01)
 
 ## [1.3.8](https://github.com/Fabi0pi/open-ui/compare/v1.3.7...v1.3.8) (2024-07-12)
